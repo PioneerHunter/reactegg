@@ -33,8 +33,12 @@ export default class Index extends Component {
   }
 
   render() {
+    const houses = {
+      info: {}
+    }
     return (
       <div>
+        {houses?.info2?.id}
         <SearchContext.Provider value={{
           state: this.state,
           dispatch: this.handleDispatch
