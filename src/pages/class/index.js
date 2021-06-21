@@ -51,6 +51,11 @@ export default class Index extends Component {
               modal
             </Link> 
           </List.Item>
+          <List.Item>
+            <Link to="/class/refs">
+              refs
+            </Link> 
+          </List.Item>
         </List>
       </div>
     )
